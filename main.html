@@ -8,6 +8,25 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	 <input type="number" min="1" data-ns-test="game-number" placeholder="Enter number of rounds" />
+  <br><br>
+  <button data-ns-test="play-game">Play Game</button>
+
+	 <div class="choices">
+    <button data-ns-test="rock">Rock</button>
+    <button data-ns-test="paper">Paper</button>
+    <button data-ns-test="scissors">Scissors</button>
+  </div>
+
+	  <div class="scoreboard">
+    <p>Rounds Left: <span data-ns-test="rounds-left">0</span></p>
+    <p>User Points: <span data-ns-test="user-points">0</span></p>
+    <p>Computer Points: <span data-ns-test="computer-points">0</span></p>
+    <p>Computer Chose: <span data-ns-test="computer-choose">-</span></p>
+    <p>Round Result: <span data-ns-test="round-result">-</span></p>
+    <p class="result">Game Result: <span data-ns-test="game-result">-</span></p>
+  </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
